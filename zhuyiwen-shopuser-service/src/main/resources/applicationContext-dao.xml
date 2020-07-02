@@ -39,13 +39,13 @@
 		<!-- mapper加载的位置   -->
 		<property name="mapperLocations" value="classpath:mappers/*" />
 		<!-- 必须修改 xxxxxx-->
-		<property name="typeAliasesPackage" value="com.zhuyiwen.goods.pojo"/>
+		<property name="typeAliasesPackage" value="com.zhuyiwen.user.pojo"/>
 	</bean>
 
 	<!--8 扫描mapper -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!-- basePackage :mapper接口所在的包    必须修改 -->
-		<property name="basePackage" value="com.zhuyiwen.goods.dao" />
+		<property name="basePackage" value="com.zhuyiwen.user.dao" />
 	</bean>
 
 </beans>

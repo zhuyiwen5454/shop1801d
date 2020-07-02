@@ -2,6 +2,9 @@ package com.zhuyiwen.goods.service;
 
 import com.zhuyiwen.goods.pojo.Sku;
 import com.zhuyiwen.goods.pojo.SkuVo;
+
+import java.util.List;
+
 import com.github.pagehelper.PageInfo;
 
 /**
@@ -18,6 +21,7 @@ public interface SkuService {
 	PageInfo<Sku> list(SkuVo skuvo);
 	
 	Sku getById(int id);
+	List<Sku> listDetailBySpu(int spuId);
 	
 
 }

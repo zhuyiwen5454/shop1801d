@@ -27,6 +27,7 @@ public interface SkuDao {
 	// 获取详情进行回显
 	Sku findById(int id);
 	List<Sku> list(SkuVo skuvo);
+	List<Sku> ListBySpuId(int spuId);
 
 
 

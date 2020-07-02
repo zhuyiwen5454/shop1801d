@@ -11,7 +11,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 
 <!-- 别名配置  必须修改-->
  <typeAliases>
-   <package name="com.zhuyiwen.goods.pojo"/>
+   <package name="com.zhuyiwen.user.pojo"/>
  </typeAliases>
 
  
